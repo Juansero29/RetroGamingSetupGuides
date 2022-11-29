@@ -10,11 +10,13 @@ A complete guide on setting up motorstorm on a modern PC as of 2022
   - [My PC Setup](#my-pc-setup)
   - [Install](#install)
   - [Playing Online](#playing-online)
-    - [Using PSONE Servers](#using-psone-servers)
-      - [RPCN Account Creation](#rpcn-account-creation)
-      - [Setting up RPCS3 to use PSONE MotorStorm server](#setting-up-rpcs3-to-use-psone-motorstorm-server)
-    - [Using PSORG](#using-psorg)
-      - [Setting up RPCS3 to use PSORG MotorStorm server](#setting-up-rpcs3-to-use-psorg-motorstorm-server)
+    - [From a PS3](#from-a-ps3)
+    - [From a PC](#from-a-pc)
+      - [Using PSONE Servers](#using-psone-servers)
+        - [RPCN Account Creation](#rpcn-account-creation)
+        - [Setting up RPCS3 to use PSONE MotorStorm server](#setting-up-rpcs3-to-use-psone-motorstorm-server)
+      - [Using PSORG](#using-psorg)
+        - [Setting up RPCS3 to use PSORG MotorStorm server](#setting-up-rpcs3-to-use-psorg-motorstorm-server)
   - [Best settings for my PC setup](#best-settings-for-my-pc-setup)
   - [Custom Configuration](#custom-configuration)
     - [1440p and 60fps+ - Always playable at 60fps+ but with car stuttering](#1440p-and-60fps---always-playable-at-60fps-but-with-car-stuttering)
@@ -56,6 +58,12 @@ A complete guide on setting up motorstorm on a modern PC as of 2022
 
 ## Playing Online
 
+### From a PS3
+
+Follow the instructions here [PS Online Network Emulated](https://www.psone.online/getting-started). Basically you change the default DNS server of your PS3.
+
+### From a PC
+
 1. Open RPCS3
 1. Go to Configuration > RPCN
 1. Follow the [steps to create an RPCN account](https://wiki.rpcs3.net/index.php?title=Help:Netplay) (you will need an e-mail and an username)
@@ -69,9 +77,9 @@ A complete guide on setting up motorstorm on a modern PC as of 2022
 1. Find a lobby usually hosted by people on the discord channels and join
 1. Enjoy!
 
-### Using PSONE Servers
+#### Using PSONE Servers
 
-#### RPCN Account Creation
+##### RPCN Account Creation
 
 1. You will need to [get to the official PSONE discord channel](https://discord.com/invite/uhZuGX9)
 1. Accept the rules, get your roles and stuff and then head to "SUPPORT" category and to the `#ticket-support` channel
@@ -81,16 +89,16 @@ A complete guide on setting up motorstorm on a modern PC as of 2022
 1. Wait a couple of hours/days till you get white listed
 1. Close the ticket once connection is OK
 
-#### Setting up RPCS3 to use PSONE MotorStorm server
+##### Setting up RPCS3 to use PSONE MotorStorm server
 
 1. On the `Change custom configuration > Network` window
 1. Change your Network Status to Connected and PSN Status to RPCN
 1. Change DNS to `185.194.142.4`
 1. Change IP/Hosts/Switches to `185.194.142.4`
 
-### Using PSORG
+#### Using PSORG
 
-#### Setting up RPCS3 to use PSORG MotorStorm server
+##### Setting up RPCS3 to use PSORG MotorStorm server
 
 No account creation or username whitelisting must be done with PSORG servers
 
